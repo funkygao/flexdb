@@ -10,7 +10,6 @@
    * [Getting Started](#getting-started)
    * [Building from Source](#building-from-source)
    * [Abstraction](#abstraction)
-   * [Architecture](#architecture)
 
 </details>
 
