@@ -103,39 +103,6 @@ Org(unit of tenant)
           └── Logs
 ```
 
-## Architecture
-
-```
-    API        Page
-     |          |
-     |         view
-     |          |
-     +----------+                                
-          |                                  connector
-         DTO                                     |          
-          |                                     SLA
-       Controller                                |
-          |                                    PERM
-       Metadata - cache                          |
-          |                                    rule
-        Store                                    |
-          |                                  telemetry
-    +----------------+                           |
-    | meta           | data                    worker
-    |            +----------------+
-    |            |       |        |
- MetaStore    FlexDB  upstream  MQSink
-                 |
-                 |         +- mysql
-                 | driver -|
-                 |         +- postgres
-                 |
-             +-------+
-             |       |
-           Data    Index
-
-```
-
 ## Inspired By
 
 Salesforce, Odoo
