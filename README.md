@@ -1,6 +1,3 @@
-#### **[Tech Design](doc/design.md)** • **[Data Model](doc/db.sql)** • **[Metadata Driven](doc/metadata.md)** • **[FAQ](doc/FAQ.md)**
-
-[![CI](https://github.com/agile-app/flexdb/workflows/Go/badge.svg?branch=main)](https://github.com/agile-app/flexdb/actions?query=branch%3Amain+workflow%3AGo)
 ![Requirement](https://img.shields.io/badge/golang-1.15+-blue.svg)
 
 <details>
