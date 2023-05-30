@@ -1,0 +1,153 @@
+{
+    "column": {
+        "name": "名称",
+        "builtin": {
+            "memo": {
+                "label": "备注"
+            },
+            "id": {
+                "label": "系统编号"
+            },
+            "ctime": {
+                "label": "创建时间"
+            },
+            "cuser": {
+                "label": "创建人"
+            },
+            "mtime": {
+                "label": "更新时间"
+            },
+            "muser": {
+                "label": "修改人"
+            }
+        }
+    },
+    "crud": {
+        "button": {
+            "create": "录入"
+        },
+        "op": {
+            "label": "操作记录",
+            "log": "修改历史",
+            "edit": "修改",
+            "delete": "删除"
+        },
+        "bulkDel": "批量删除",
+        "id.remark": "唯一标识一条记录",
+        "filter": {
+            "title": "查询条件",
+            "remark": "默认等于，可以在输入框里加操作符：> < like。例如，输入：> 5",
+            "id.placeholder": "ID(系统编号)",
+            "action": {
+                "submit": "查询",
+                "reset": "重置"
+            }
+        }
+    },
+    "design": {
+        "app": {
+            "menu": {
+                "share": "共享应用",
+                "preview": "预览应用",
+                "api": "API对接",
+                "tables": "表管理",
+                "perm": "权限管理",
+                "pages": "页面管理",
+                "charts": "图表管理"
+            },
+            "share": {
+                "column": {
+                    "subject": {
+                        "label": "共享给"
+                    },
+                    "ctime": {
+                        "label": "共享时间"
+                    }
+                }
+            }
+        },
+        "apps": {
+            "page": {
+                "title": "我的应用",
+                "remark": "这里列出你可以访问的所有应用：你创建的，别人共享给你的，公共的等",
+                "subTitle": "线下使用Excel设计 -> 上传即创建应用 -> 使用应用",
+                "create": "创建应用"
+            }
+        }
+    },
+    "app": {
+        "visibility": {
+            "label": "可见范围",
+            "public": {
+                "label": "公共的",
+                "desc": "Anyone on the internet can use this app."
+            },
+            "private": {
+                "label": "私有的",
+                "desc": "You choose who can use this app."
+            },
+            "shared": {
+                "label": "共享给我的",
+                "desc": "You choose who can use this app."
+            }
+        },
+        "model": {
+            "name": {
+                "label": "数据表名"
+            },
+            "remark": {
+                "label": "备注",
+                "desc": "用户在该表录入时会提示"
+            },
+            "feature": {
+               "buttons": {
+                  "label": "页面数据操作",
+                  "desc": "整体的数据操作权限"
+               },
+               "button": {
+                   "create": {
+                      "label": "允许录入"
+                   },
+                   "read": {
+                      "label": "允许查看"
+                   },
+                   "update": {
+                      "label": "允许更改"
+                   },
+                   "delete": {
+                      "label": "允许删除"
+                   }
+               }
+            },
+            "columns": {
+                "name": {
+                    "label": "字段名称"
+                },
+                "remark": {
+                    "label": "字段备注"
+                },
+                "label": {
+                    "label": "显示名称",
+                    "desc": "页面显示时以该名称为准"
+                },
+                "indexed": {
+                    "label": "可搜",
+                    "desc": "会建立索引"
+                },
+                "required": {
+                    "label": "必填"
+                },
+                "sortable": {
+                    "label": "可排序"
+                },
+                "ro": {
+                    "label": "只读",
+                    "desc": "录入后不可修改"
+                },
+                "unique": {
+                    "label": "唯一"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+package column
+
+import (
+	_ "github.com/agile-app/flexdb/plugins/column/boolean"
+	_ "github.com/agile-app/flexdb/plugins/column/choice"
+	_ "github.com/agile-app/flexdb/plugins/column/city"
+	_ "github.com/agile-app/flexdb/plugins/column/color"
+	_ "github.com/agile-app/flexdb/plugins/column/datetime"
+	_ "github.com/agile-app/flexdb/plugins/column/email"
+	_ "github.com/agile-app/flexdb/plugins/column/erp"
+	_ "github.com/agile-app/flexdb/plugins/column/file"
+	_ "github.com/agile-app/flexdb/plugins/column/formula"
+	_ "github.com/agile-app/flexdb/plugins/column/image"
+	_ "github.com/agile-app/flexdb/plugins/column/integer"
+	_ "github.com/agile-app/flexdb/plugins/column/lookup"
+	_ "github.com/agile-app/flexdb/plugins/column/many2one"
+	_ "github.com/agile-app/flexdb/plugins/column/mobile"
+	_ "github.com/agile-app/flexdb/plugins/column/password"
+	_ "github.com/agile-app/flexdb/plugins/column/phone"
+	_ "github.com/agile-app/flexdb/plugins/column/progress"
+	_ "github.com/agile-app/flexdb/plugins/column/qrcode"
+	_ "github.com/agile-app/flexdb/plugins/column/rating"
+	_ "github.com/agile-app/flexdb/plugins/column/sequence"
+	_ "github.com/agile-app/flexdb/plugins/column/text"
+	_ "github.com/agile-app/flexdb/plugins/column/textarea"
+	_ "github.com/agile-app/flexdb/plugins/column/url"
+)

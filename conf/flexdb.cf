@@ -1,0 +1,14 @@
+{
+    local_debug: true
+    locale: "zh_CN"
+    mdb: "root:@tcp(127.0.0.1:3306)/flexmeta?charset=utf8mb4&parseTime=True&loc=Local&readTimeout=30s&writeTimeout=10s&timeout=10s"
+    ddb: [
+        "root:@tcp(127.0.0.1:3306)/flexdata?charset=utf8mb4&parseTime=True&loc=Local",
+    ]
+    cache: "blackhole"
+    sla: "dummy"
+    telemetry: "localFile"
+    cors_allow_origins: [
+        "http://localhost:7050",
+    ]
+}

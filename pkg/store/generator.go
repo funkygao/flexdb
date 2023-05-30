@@ -1,0 +1,3 @@
+package store
+
+//go:generate go-bindata -nomemcopy -pkg store template/...

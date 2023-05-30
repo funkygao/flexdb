@@ -1,0 +1,3 @@
+package i18n
+
+//go:generate go-bindata -nomemcopy -pkg i18n translactions/...

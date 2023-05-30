@@ -1,0 +1,24 @@
+@startuml
+kickoff -> kickoff: 整个系统的抽象设计\n系统由哪些元素组成\n它们的关系
+kickoff -> kickoff: 数据模型设计
+kickoff -> kickoff: 业务扩展性设计\n支持外部研发补充能力
+kickoff -> kickoff: 可扩展的代码架构设计\n支持多人并行开发
+kickoff -> kickoff: RESTful API设计
+kickoff -> kickoff: 测试设计
+kickoff -> kickoff: 前端与后端的集成
+kickoff -> kickoff: 模型压测
+kickoff -> kickoff: 实现
+
+kickoff -> PoC1: 招聘管理
+PoC1 -> PoC1: 迭代
+PoC1 -> PoC2: 大件需求提报系统
+PoC2 -> PoC2: 迭代
+PoC2 -> 上线前能力补齐
+上线前能力补齐 -> Roadshow
+Roadshow -> Online
+Online -> Online: 满足更多需求
+Online -> Online: 产生更大价值
+Online -> Open: 对外开放
+Open -> Open: 建立生态
+Open -> Open: 预制模版
+@enduml

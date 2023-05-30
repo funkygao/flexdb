@@ -1,0 +1,39 @@
+@startuml
+
+cloud podA {    
+    database metaA
+    database dataA1
+    database dataA2
+    database dataA3
+    node webA1
+    node webA2
+    
+    webA1 --> metaA
+    webA2 --> metaA
+    webA1 --> dataA1
+    webA1 --> dataA2
+    webA1 --> dataA3
+    webA2 --> dataA1
+    webA2 --> dataA2
+    webA2 --> dataA3
+}
+
+cloud podB {
+    database metaB
+    database dataB1
+    database dataB2
+    node webB1
+    node webB2
+    
+    webB1 --> metaB
+    webB2 --> metaB
+    webB1 --> dataB1
+    webB1 --> dataB2
+    webB2 --> dataB1
+    webB2 --> dataB2
+}
+
+actor user
+user -> podA
+user -> podB
+@enduml
